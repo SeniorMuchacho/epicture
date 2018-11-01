@@ -28,7 +28,7 @@ public class LoginActivity extends AppCompatActivity {
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
 
                 if (url.contains("")) {
-                    //splitUrl(url, view);
+                    splitUrl(url, view);
                 } else {
                     view.loadUrl(url);
                 }
